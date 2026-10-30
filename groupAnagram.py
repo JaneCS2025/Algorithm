@@ -13,4 +13,4 @@ def group_anagrams(strs):
     groups[''.join(sorted(s))].append(s)
   return list(groups.values())
 
-print(group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
+# print(group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
